@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 #gem 'devise'
 #gem 'pundit'
 
+gem 'stripe'
 gem 'rails'
 gem 'puma'
 gem 'sass-rails'
