@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+gem 'dotenv'
+gem 'stripe'
 gem 'pg'
 gem 'nokogiri'
 gem 'rails', '~> 5.2.1'
