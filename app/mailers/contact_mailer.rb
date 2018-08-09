@@ -1,7 +1,7 @@
 class ContactMailer < ApplicationMailer
 
 	def contact
-		mail(to: 'contact@test.fr', subject: "Je t'aime")
+		mail(to: 'barbalatana@mail.com', subject: "Je t'aime")
 	end
 
 end
