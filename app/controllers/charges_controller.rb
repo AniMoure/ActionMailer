@@ -18,8 +18,6 @@ class ChargesController < ApplicationController
 	    :currency    => 'eur'
 	  )
 
-  ContactMailer.contact(:email).deliver_now
-
 	rescue Stripe::CardError => e
 	  flash[:error] = e.message
 	  redirect_to new_charge_path
